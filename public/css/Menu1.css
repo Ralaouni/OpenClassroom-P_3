@@ -1,0 +1,221 @@
+body {
+  font-family: serif;
+}
+
+header {
+  margin-top: -30px;
+}
+header .logo {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+header .image_principale {
+  width: 100%;
+}
+header i {
+  color: #363636;
+  position: relative;
+  top: 43px;
+  left: 10px;
+}
+
+section {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  bottom: 70px;
+  padding-bottom: 125px;
+  margin-bottom: -75px;
+  background-color: #eeeeee;
+}
+section h1 {
+  font-weight: 700;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+section i {
+  position: relative;
+  left: 85%;
+  bottom: 40px;
+  font-size: 120%;
+}
+section Article {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+section Article .ENTREES h2 {
+  font-size: 15px;
+  position: relative;
+  bottom: 15px;
+  font-weight: 300;
+}
+section Article .ENTREES .border_bottom {
+  background-color: #99E2D0;
+  height: 3px;
+  width: 35px;
+  position: relative;
+  bottom: 20px;
+}
+section Article .ENTREES .block {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
+  border-radius: 15px;
+  height: 55px;
+  margin-top: -5px;
+  background-color: white;
+}
+section Article .ENTREES .block h3 {
+  font-size: 17px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+section Article .ENTREES .block p {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+section Article .ENTREES .block .Ingredients {
+  font-size: 14px;
+}
+section Article .ENTREES .block .Prix {
+  position: relative;
+  left: 82%;
+  bottom: 20px;
+  font-size: 13px;
+  font-weight: 800;
+}
+section Article .PLATS {
+  margin-top: 50px;
+}
+section Article .PLATS h2 {
+  font-size: 15px;
+  position: relative;
+  bottom: 15px;
+  font-weight: 300;
+}
+section Article .PLATS .border_bottom {
+  background-color: #99E2D0;
+  height: 3px;
+  width: 35px;
+  position: relative;
+  bottom: 20px;
+}
+section Article .PLATS .block {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
+  border-radius: 15px;
+  height: 55px;
+  margin-top: -5px;
+  background-color: white;
+}
+section Article .PLATS .block h3 {
+  font-size: 17px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+section Article .PLATS .block p {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+section Article .PLATS .block .Ingredients {
+  font-size: 14px;
+}
+section Article .PLATS .block .Prix {
+  position: relative;
+  left: 82%;
+  bottom: 20px;
+  font-size: 13px;
+  font-weight: 800;
+}
+section Article .DESSERTS {
+  margin-top: 50px;
+}
+section Article .DESSERTS h2 {
+  font-size: 15px;
+  position: relative;
+  bottom: 15px;
+  font-weight: 300;
+}
+section Article .DESSERTS .border_bottom {
+  background-color: #99E2D0;
+  height: 3px;
+  width: 35px;
+  position: relative;
+  bottom: 20px;
+}
+section Article .DESSERTS .block {
+  border-radius: 15px;
+  height: 55px;
+  margin-top: -5px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
+}
+section Article .DESSERTS .block h3 {
+  font-size: 17px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+section Article .DESSERTS .block p {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+section Article .DESSERTS .block .Ingredients {
+  font-size: 14px;
+}
+section Article .DESSERTS .block .Prix {
+  position: relative;
+  left: 82%;
+  bottom: 20px;
+  font-size: 13px;
+  font-weight: 800;
+}
+section .Commander_div {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+section .Commander_div .Commander {
+  font-weight: 550;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #FF79DA;
+  padding: 12px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.342);
+  color: white;
+}
+
+footer {
+  background-color: #363636;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+footer img {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  filter: invert(100%);
+}
+footer li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+footer li a {
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
+footer li .fa-utensils {
+  font-size: 10px;
+  margin-right: 7px;
+}
+footer li .fa-hands-helping {
+  font-size: 8px;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=Menu1.css.map */
