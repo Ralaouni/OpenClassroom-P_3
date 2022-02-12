@@ -16,11 +16,13 @@ header .logo {
 header .image_principale {
   width: 100%;
 }
-header i {
-  color: #363636;
+header a {
   position: relative;
-  top: 43px;
+  top: 45px;
   left: 10px;
+}
+header a i {
+  color: #363636;
 }
 
 section {
@@ -67,6 +69,19 @@ section Article .ENTREES .block {
   margin-top: -5px;
   background-color: white;
 }
+section Article .ENTREES .block .animation {
+  background-color: #99E2D0;
+  height: 56px;
+  width: 19%;
+  position: relative;
+  bottom: 129%;
+  left: 81%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transform: scaleX(0);
+  transition: all 1s;
+  transform-origin: 100% 50%;
+}
 section Article .ENTREES .block h3 {
   font-size: 17px;
   margin-left: 15px;
@@ -85,6 +100,18 @@ section Article .ENTREES .block .Prix {
   bottom: 20px;
   font-size: 13px;
   font-weight: 800;
+  transition: all 1s;
+}
+section Article .ENTREES .block:hover {
+  cursor: pointer;
+}
+section Article .ENTREES .block:hover .animation {
+  transition: all 1s;
+  transform: scaleX(1);
+}
+section Article .ENTREES .block:hover .Prix {
+  transform: translateX(-14%);
+  transition: all 1s;
 }
 section Article .PLATS {
   margin-top: 50px;
@@ -109,6 +136,19 @@ section Article .PLATS .block {
   margin-top: -5px;
   background-color: white;
 }
+section Article .PLATS .block .animation {
+  background-color: #99E2D0;
+  height: 56px;
+  width: 19%;
+  position: relative;
+  bottom: 129%;
+  left: 81%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transform: scaleX(0);
+  transition: all 1s;
+  transform-origin: 100% 50%;
+}
 section Article .PLATS .block h3 {
   font-size: 17px;
   margin-left: 15px;
@@ -127,6 +167,18 @@ section Article .PLATS .block .Prix {
   bottom: 20px;
   font-size: 13px;
   font-weight: 800;
+  transition: all 1s;
+}
+section Article .PLATS .block:hover {
+  cursor: pointer;
+}
+section Article .PLATS .block:hover .animation {
+  transition: all 1s;
+  transform: scaleX(1);
+}
+section Article .PLATS .block:hover .Prix {
+  transform: translateX(-14%);
+  transition: all 1s;
 }
 section Article .DESSERTS {
   margin-top: 50px;
@@ -145,11 +197,24 @@ section Article .DESSERTS .border_bottom {
   bottom: 20px;
 }
 section Article .DESSERTS .block {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
   border-radius: 15px;
   height: 55px;
   margin-top: -5px;
   background-color: white;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
+}
+section Article .DESSERTS .block .animation {
+  background-color: #99E2D0;
+  height: 56px;
+  width: 19%;
+  position: relative;
+  bottom: 129%;
+  left: 81%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transform: scaleX(0);
+  transition: all 1s;
+  transform-origin: 100% 50%;
 }
 section Article .DESSERTS .block h3 {
   font-size: 17px;
@@ -169,6 +234,18 @@ section Article .DESSERTS .block .Prix {
   bottom: 20px;
   font-size: 13px;
   font-weight: 800;
+  transition: all 1s;
+}
+section Article .DESSERTS .block:hover {
+  cursor: pointer;
+}
+section Article .DESSERTS .block:hover .animation {
+  transition: all 1s;
+  transform: scaleX(1);
+}
+section Article .DESSERTS .block:hover .Prix {
+  transform: translateX(-14%);
+  transition: all 1s;
 }
 section .Commander_div {
   text-align: center;
@@ -218,4 +295,4 @@ footer li .fa-hands-helping {
   margin-right: 5px;
 }
 
-/*# sourceMappingURL=Menu1.css.map */
+/*# sourceMappingURL=Menu.css.map */
