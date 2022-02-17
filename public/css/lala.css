@@ -66,4 +66,19 @@ button b {
   transform: translateX(8px);
 }
 
+.fas {
+  position: absolute;
+  color: #FF79DA;
+  font-size: 100%;
+  opacity: 0;
+  right: 0%;
+}
+
+.far {
+  position: relative;
+  font-size: 110%;
+  left: 80%;
+  bottom: 40px;
+}
+
 /*# sourceMappingURL=lala.css.map */
