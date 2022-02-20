@@ -1,25 +1,6 @@
 
 /*Header*/
 
-body{
-    font-family: serif;
-    .logo_chargement{
-        width: 35%;
-        animation: logo 2s;
-        position: absolute;
-        top: 45%;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        visibility: hidden;
-    }
-}
-#corps{
-    animation: chargement 2s;
-    
-}
-
 @keyframes logo{
     0% {
         transform: scale(2);
@@ -60,9 +41,26 @@ body{
     }
 }
 
+body{
+    font-family: serif;
+    .logo_chargement{
+        z-index: 0%;
+        animation: logo 2s;
+        position: absolute;
+        top: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        visibility: hidden;
+    }
+}
+#corps{
+    animation: chargement 2s;
+}
 .logo{
     display: block;
-    width: 50%;
+    width: 24%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
@@ -70,7 +68,7 @@ body{
 }
 .Recherche{
     width: 100%;
-    height: 30px;
+    height: 40px;
     display: block;
     text-align: center;
     margin-top: 20px;
@@ -79,14 +77,15 @@ body{
     background-color: #e6e6e6;
     .searchbar{
         border: none;
+        height: 40px;
         font-size: 21px;
-        width: 45%;
+        width: 15%;
         background-color: #e6e6e6;
         outline: none;
     }
     .fa-map-marker-alt{
         margin-right: 10px;
-        font-size: 21px;
+        font-size: 30px;
     }
 }
 .header3{
@@ -133,15 +132,17 @@ body{
 nav {
     margin-bottom: 50px;
     h2{
+        text-align: center;
         font-weight: 700;
         font-size: 35px;
     }
     ul{
         li{
-            list-style-type: none;
-            display: flex;
             margin-left: auto;
             margin-right: auto;
+            width: 35%;
+            list-style-type: none;
+            display: flex;
             a{
                 font-weight: 750;
                 font-size: 22px;
@@ -151,7 +152,7 @@ nav {
                 margin-top: 10px;
                 padding-top: 5px;
                 padding-bottom: 5px;
-                width: 90%;
+                width: 100%;
                 align-items: center;
                 display: flex;
                 text-decoration: none;
@@ -186,100 +187,102 @@ article{
     padding-top: 30px;
     padding-bottom: 35px;
     h2{
+        text-align: center;
         font-size: 34px;
         font-weight: 700;
-        position: relative;
-        left: 15px;
     }
-    a{
+    .MENUS{
         display: flex;
-        text-decoration: none;
-        color: black;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-        width: 90%;
-        height: 315px;
-        border-radius: 15px;
-        overflow: hidden;
-        .block{
-            width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+        a{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 30px;
             height: 315px;
-            background-color: white;
-            border-radius: 15px;
-            margin-bottom: 15px;
-            img{
+            width: 40%;
+            border-radius: 20px;
+            .block{
                 width: 100%;
-                height: 215px;
-                border-top-left-radius: 15px;
-                border-top-right-radius: 15px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                object-fit: cover;
+                height: 315px;
+                background-color: white;
+                border-radius: 15px;
+                margin-bottom: 15px;
+                img{
+                    width: 100%;
+                    height: 215px;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    object-fit: cover;
+                }
+                h3{
+                    font-weight: 900;
+                    font-size: 25px;
+                    margin-bottom: 0px;
+                    margin-left: 10px;
+                }
+                p{
+                    font-size: 22px;
+                    margin-left: 10px;
+                    margin-top: 4px;
+                }
             }
-            h3{
-                font-weight: 900;
-                font-size: 25px;
-                margin-bottom: 0px;
-                margin-left: 10px;
-            }
-            p{
-                font-size: 22px;
-                margin-left: 10px;
-                margin-top: 4px;
+            &:hover{
+                box-shadow: 0px 4px 8px black;
             }
         }
-        &:hover{
-            box-shadow: 0px 4px 8px black;
-        }
-    }
-    .coeur{
-        width: 40px;
-        height: 20px;
-        position: relative;
-        left: 80%;
-        bottom: 95px;
-        &:hover{
-            cursor: pointer;
-        }
-        &:active{
-            cursor: pointer;
+        .coeur{
+            width: 40px;
+            height: 20px;
+            position: relative;
+            top: 245px;
+            right: 10%;
+            &:hover{
+                cursor: pointer;
+            }
+            &:active{
+                cursor: pointer;
+                .fa-regular{
+                    transition: all 1s;
+                    opacity: 0;
+                }
+                .fa-solid{
+                    transition: all 0.3s;
+                    opacity: 1;
+                    background-size: 100% 100%;
+                }
+            }
             .fa-regular{
-                transition: all 1s;
-                opacity: 0;
+                position: relative;
+                font-size: 30px;
+                bottom: 30px;
             }
             .fa-solid{
-                transition: all 0.3s;
-                opacity: 1;
-                background-size: 100% 100%;
+                position: relative;
+                background:-moz-linear-gradient(top, #FF79DA , #9356DC ); 
+                background: -webkit-linear-gradient(top, #FF79DA ,#9356DC ); 
+                background: linear-gradient(to bottom, #FF79DA ,#9356DC );
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color:transparent;
+                display: inline;
+                font-size: 30px;
+                background-size: 1px 1px;
+                opacity: 0;
             }
         }
-        .fa-regular{
-            position: relative;
-            font-size: 30px;
-            bottom: 30px;
-        }
-        .fa-solid{
-            position: relative;
-            background:-moz-linear-gradient(top, #FF79DA , #9356DC ); 
-            background: -webkit-linear-gradient(top, #FF79DA ,#9356DC ); 
-            background: linear-gradient(to bottom, #FF79DA ,#9356DC );
-            -webkit-background-clip: text;
-            -moz-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color:transparent;
-            display: inline;
-            font-size: 30px;
-            background-size: 1px 1px;
-            opacity: 0;
-        }
     }
+    
 }
 footer{
     background-color: rgb(54, 54, 54);
     padding-bottom: 30px;
     padding-top: 30px;
+    text-align: center;
     img{
         width: 130px;
         margin-left: 30px;
@@ -301,15 +304,6 @@ footer{
         .fa-hands-helping{
             font-size: 12px;
             margin-right: 5px;
-        }
-    }
-}
-@media screen and (max-width: 320px) {
-    .header3{
-        .Explorez{
-            a{
-                font-size: 18px;
-            }
         }
     }
 }
