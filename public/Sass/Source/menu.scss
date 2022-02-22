@@ -267,3 +267,34 @@ footer{
             }
         }
     }
+@media (min-width: 799px ) and (max-width:1100px) {
+    section{
+        height: 1000px;
+        Article{
+            .MENU{
+                display: flex;
+                flex-direction: column;
+                .ENTREES{
+                    width: 45%;
+                    position: relative;
+                    right: 23%;
+                }
+                .PLATS{
+                    width: 45%;
+                    position: relative;
+                    bottom: 362px;
+                    left: 23%;
+                }
+                .DESSERTS{
+                    width: 90%;
+                    position: relative;
+                    bottom: 362px;
+                }
+            }
+        }
+        .Commander_div{
+            position: relative;
+            top: -280px;
+        }
+    }
+}

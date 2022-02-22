@@ -303,4 +303,10 @@ footer li .fa-hands-helping {
   margin-right: 5px;
 }
 
+@media (min-width: 799px) and (max-width: 1100px) {
+  nav ul li {
+    width: 65%;
+  }
+}
+
 /*# sourceMappingURL=acceuil_desktop.css.map */

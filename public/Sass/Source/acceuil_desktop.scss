@@ -307,3 +307,12 @@ footer{
         }
     }
 }
+@media (min-width: 799px ) and (max-width:1100px) {
+    nav{
+        ul{
+            li{
+                width: 65%;
+            }
+        }
+    }
+}

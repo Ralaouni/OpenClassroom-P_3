@@ -463,5 +463,34 @@ footer li .fa-hands-helping {
     top: 35px;
   }
 }
+@media (min-width: 799px) and (max-width: 1100px) {
+  section {
+    height: 1000px;
+  }
+  section Article .MENU {
+    display: flex;
+    flex-direction: column;
+  }
+  section Article .MENU .ENTREES {
+    width: 45%;
+    position: relative;
+    right: 23%;
+  }
+  section Article .MENU .PLATS {
+    width: 45%;
+    position: relative;
+    bottom: 362px;
+    left: 23%;
+  }
+  section Article .MENU .DESSERTS {
+    width: 90%;
+    position: relative;
+    bottom: 362px;
+  }
+  section .Commander_div {
+    position: relative;
+    top: -280px;
+  }
+}
 
 /*# sourceMappingURL=menu.css.map */
