@@ -39,7 +39,7 @@
   }
 }
 body {
-  font-family: serif;
+  font-family: cursive, sans-serif;
 }
 body .logo_chargement {
   z-index: 0%;
@@ -57,12 +57,18 @@ body .logo_chargement {
   animation: chargement 2s;
 }
 
+.logo_div {
+  box-shadow: 0 4px 6px -6px #222;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  position: relative;
+}
+
 .logo {
   display: block;
   width: 24%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
   margin-top: 20px;
 }
 
@@ -71,7 +77,6 @@ body .logo_chargement {
   height: 40px;
   display: block;
   text-align: center;
-  margin-top: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #e6e6e6;
@@ -93,7 +98,6 @@ body .logo_chargement {
   text-align: center;
   padding-bottom: 90px;
   padding-top: 20px;
-  margin-bottom: 40px;
   background-color: #F2F2F2;
 }
 .header3 h1 {
@@ -128,16 +132,20 @@ body .logo_chargement {
 
 /*Nav*/
 nav {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  border-bottom: solid black 1px;
 }
 nav h2 {
   text-align: center;
   font-weight: 700;
   font-size: 35px;
 }
+nav ul {
+  display: flex;
+}
 nav ul li {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
   width: 35%;
   list-style-type: none;
   display: flex;
@@ -218,12 +226,16 @@ article .MENUS a .block img {
   object-fit: cover;
 }
 article .MENUS a .block h3 {
+  position: relative;
+  bottom: 15px;
   font-weight: 900;
   font-size: 25px;
   margin-bottom: 0px;
   margin-left: 10px;
 }
 article .MENUS a .block p {
+  position: relative;
+  bottom: 15px;
   font-size: 22px;
   margin-left: 10px;
   margin-top: 4px;
@@ -241,14 +253,11 @@ article .MENUS .coeur {
 article .MENUS .coeur:hover {
   cursor: pointer;
 }
-article .MENUS .coeur:active {
-  cursor: pointer;
-}
-article .MENUS .coeur:active .fa-regular {
+article .MENUS .coeur:hover .fa-regular {
   transition: all 1s;
   opacity: 0;
 }
-article .MENUS .coeur:active .fa-solid {
+article .MENUS .coeur:hover .fa-solid {
   transition: all 0.3s;
   opacity: 1;
   background-size: 100% 100%;
@@ -306,6 +315,18 @@ footer li .fa-hands-helping {
 @media (min-width: 799px) and (max-width: 1100px) {
   nav ul li {
     width: 65%;
+  }
+
+  .Recherche .searchbar {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 905px) {
+  article .MENUS a .block h3 {
+    font-size: 20px;
+  }
+  article .MENUS a .block p {
+    font-size: 18px;
   }
 }
 

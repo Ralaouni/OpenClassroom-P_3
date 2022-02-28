@@ -1,5 +1,5 @@
 body {
-  font-family: serif;
+  font-family: cursive, sans-serif;
 }
 
 @keyframes fadein {
@@ -62,14 +62,11 @@ section .coeur {
 section .coeur:hover {
   cursor: pointer;
 }
-section .coeur:active {
-  cursor: pointer;
-}
-section .coeur:active .fa-regular {
+section .coeur:hover .fa-regular {
   transition: all 1s;
   opacity: 0;
 }
-section .coeur:active .fa-solid {
+section .coeur:hover .fa-solid {
   transition: all 0.3s;
   opacity: 1;
   background-size: 100% 100%;
@@ -124,10 +121,10 @@ section Article .ENTREES .block {
 }
 section Article .ENTREES .block .animation {
   background-color: #99E2D0;
-  height: 83px;
+  height: 85px;
   width: 23%;
   position: relative;
-  bottom: 175%;
+  bottom: 152%;
   left: 100%;
   transition: all 1s;
 }
@@ -139,7 +136,8 @@ section Article .ENTREES .block .animation i {
   color: white;
 }
 section Article .ENTREES .block h3 {
-  font-size: 25px;
+  width: 80%;
+  font-size: 21px;
   margin-left: 15px;
   padding-top: 5px;
   position: relative;
@@ -154,15 +152,16 @@ section Article .ENTREES .block p {
   bottom: 20px;
 }
 section Article .ENTREES .block .Ingredients {
-  font-size: 22px;
+  width: 80%;
+  font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 section Article .ENTREES .block .Prix {
   position: relative;
   left: 82%;
-  bottom: 50px;
-  font-size: 21px;
+  bottom: 44px;
+  font-size: 17px;
   font-weight: 800;
   transition: all 1s;
 }
@@ -184,20 +183,28 @@ section Article .ENTREES .block:hover .Ingredients {
   width: 50%;
 }
 section Article .ENTREES .block:hover .Prix {
-  transform: translateX(-14%);
+  transform: translateX(-17%);
   transition: all 1s;
 }
 section Article .ENTREES .block_1 {
   animation-delay: 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .ENTREES .block_2 {
   animation-delay: 0.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .ENTREES .block_3 {
   animation-delay: 0.6s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .ENTREES .block_4 {
   animation-delay: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .PLATS {
   margin-top: 50px;
@@ -227,10 +234,10 @@ section Article .PLATS .block {
 }
 section Article .PLATS .block .animation {
   background-color: #99E2D0;
-  height: 83px;
+  height: 85px;
   width: 23%;
   position: relative;
-  bottom: 175%;
+  bottom: 152%;
   left: 100%;
   transition: all 1s;
 }
@@ -242,7 +249,8 @@ section Article .PLATS .block .animation i {
   color: white;
 }
 section Article .PLATS .block h3 {
-  font-size: 25px;
+  width: 80%;
+  font-size: 21px;
   margin-left: 15px;
   padding-top: 5px;
   position: relative;
@@ -257,15 +265,16 @@ section Article .PLATS .block p {
   bottom: 20px;
 }
 section Article .PLATS .block .Ingredients {
-  font-size: 22px;
+  width: 80%;
+  font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 section Article .PLATS .block .Prix {
   position: relative;
   left: 82%;
-  bottom: 50px;
-  font-size: 21px;
+  bottom: 44px;
+  font-size: 17px;
   font-weight: 800;
   transition: all 1s;
 }
@@ -287,20 +296,28 @@ section Article .PLATS .block:hover .Ingredients {
   width: 50%;
 }
 section Article .PLATS .block:hover .Prix {
-  transform: translateX(-14%);
+  transform: translateX(-17%);
   transition: all 1s;
 }
 section Article .PLATS .block_1 {
   animation-delay: 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .PLATS .block_2 {
   animation-delay: 0.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .PLATS .block_3 {
   animation-delay: 0.6s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .PLATS .block_4 {
   animation-delay: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .DESSERTS {
   margin-top: 50px;
@@ -330,10 +347,10 @@ section Article .DESSERTS .block {
 }
 section Article .DESSERTS .block .animation {
   background-color: #99E2D0;
-  height: 83px;
+  height: 85px;
   width: 23%;
   position: relative;
-  bottom: 175%;
+  bottom: 152%;
   left: 100%;
   transition: all 1s;
 }
@@ -345,7 +362,8 @@ section Article .DESSERTS .block .animation i {
   color: white;
 }
 section Article .DESSERTS .block h3 {
-  font-size: 25px;
+  width: 80%;
+  font-size: 21px;
   margin-left: 15px;
   padding-top: 5px;
   position: relative;
@@ -360,15 +378,16 @@ section Article .DESSERTS .block p {
   bottom: 20px;
 }
 section Article .DESSERTS .block .Ingredients {
-  font-size: 22px;
+  width: 80%;
+  font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 section Article .DESSERTS .block .Prix {
   position: relative;
   left: 82%;
-  bottom: 50px;
-  font-size: 21px;
+  bottom: 44px;
+  font-size: 17px;
   font-weight: 800;
   transition: all 1s;
 }
@@ -390,20 +409,28 @@ section Article .DESSERTS .block:hover .Ingredients {
   width: 50%;
 }
 section Article .DESSERTS .block:hover .Prix {
-  transform: translateX(-14%);
+  transform: translateX(-17%);
   transition: all 1s;
 }
 section Article .DESSERTS .block_1 {
   animation-delay: 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .DESSERTS .block_2 {
   animation-delay: 0.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .DESSERTS .block_3 {
   animation-delay: 0.6s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section Article .DESSERTS .block_4 {
   animation-delay: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 section .Commander_div {
   text-align: center;
@@ -463,33 +490,63 @@ footer li .fa-hands-helping {
     top: 35px;
   }
 }
-@media (min-width: 799px) and (max-width: 1100px) {
-  section {
-    height: 1000px;
+@media screen and (max-width: 400px) {
+  section h1 {
+    width: 70%;
+    font-size: 25px;
   }
-  section Article .MENU {
-    display: flex;
-    flex-direction: column;
+  section .coeur .fa-regular {
+    font-size: 22px;
   }
-  section Article .MENU .ENTREES {
-    width: 45%;
-    position: relative;
-    right: 23%;
+  section .coeur .fa-solid {
+    font-size: 22px;
+    bottom: 6px;
   }
-  section Article .MENU .PLATS {
-    width: 45%;
-    position: relative;
-    bottom: 362px;
-    left: 23%;
+  section Article .MENU h2 {
+    font-size: 20px;
   }
-  section Article .MENU .DESSERTS {
-    width: 90%;
-    position: relative;
-    bottom: 362px;
+  section Article .MENU .block h3 {
+    font-size: 20px;
+    bottom: 10px;
+    width: 70%;
   }
-  section .Commander_div {
-    position: relative;
-    top: -280px;
+  section Article .MENU .block p {
+    bottom: 10px;
+  }
+  section Article .MENU .block .Ingredients {
+    width: 70%;
+    font-size: 19px;
+  }
+  section Article .MENU .block .Prix {
+    font-size: 16px;
+    bottom: 30px;
+    left: 75%;
+  }
+  section .Commander_div .Commander {
+    font-size: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media screen and (max-width: 240px) {
+  header .logo {
+    width: 120px;
+  }
+
+  Section Article .MENU .block .animation {
+    bottom: 125%;
+  }
+  Section Article .MENU .block h3 {
+    font-size: 17px;
+    width: 50%;
+  }
+  Section Article .MENU .block .Ingredients {
+    font-size: 15px;
+    width: 50%;
+  }
+  Section Article .MENU .block .Prix {
+    left: 67%;
+    font-size: 15px;
   }
 }
 

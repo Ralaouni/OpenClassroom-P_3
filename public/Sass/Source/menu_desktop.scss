@@ -1,5 +1,5 @@
 body{
-    font-family: serif;
+    font-family: cursive, sans-serif;
 }
 
 @keyframes fadein {
@@ -38,7 +38,7 @@ body{
             height: 83px;
             width: 23%;
             position: relative;
-            bottom: 146%;
+            bottom: 160%;
             left: 100%;
             transition: all 1s;
             i{
@@ -155,10 +155,6 @@ section{
         right: 10%;
         top: 50px;
         &:hover{
-            cursor: pointer;
-        }
-        &:active{
-            cursor: pointer;
             .fa-regular{
                 transition: all 1s;
                 opacity: 0;
@@ -200,14 +196,14 @@ section{
             align-items: center;
         }
         .ENTREES{
-            position: relative;
-            top: 25px;
+            height: 360px;
             width: 33%;
             margin-left: 10px;
             margin-right: 10px;
             @include Blocks;
         }
         .PLATS{
+            height: 360px;
             width: 30%;
             margin-right: 10px;
             margin-left: 10px;
@@ -268,6 +264,37 @@ footer{
         .fa-hands-helping{
             font-size: 12px;
             margin-right: 5px;
+        }
+    }
+}
+@media (min-width: 799px ) and (max-width:1100px) {
+    section{
+        height: 1000px;
+        Article{
+            .MENU{
+                display: flex;
+                flex-direction: column;
+                .ENTREES{
+                    width: 45%;
+                    position: relative;
+                    right: 23%;
+                }
+                .PLATS{
+                    width: 45%;
+                    position: relative;
+                    bottom: 410px;
+                    left: 23%;
+                }
+                .DESSERTS{
+                    width: 90%;
+                    position: relative;
+                    bottom: 362px;
+                }
+            }
+        }
+        .Commander_div{
+            position: relative;
+            top: -280px;
         }
     }
 }

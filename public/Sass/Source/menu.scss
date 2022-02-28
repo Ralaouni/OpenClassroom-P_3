@@ -1,6 +1,6 @@
 
 body{
-    font-family: serif;
+    font-family: cursive, sans-serif;
 }
 @keyframes fadein {
     0% {
@@ -41,10 +41,10 @@ body{
         animation: fadein 0.8s;
         .animation{
             background-color: #99E2D0;
-            height: 83px;
+            height: 85px;
             width: 23%;
             position: relative;
-            bottom: 175%;
+            bottom: 152%;
             left: 100%;
             transition: all 1s;
             i{
@@ -56,7 +56,8 @@ body{
             }
         }
         h3{
-            font-size: 25px;
+            width: 80%;
+            font-size: 21px;
             margin-left: 15px;
             padding-top: 5px;
             position: relative;
@@ -72,15 +73,16 @@ body{
             
         }
         .Ingredients{
-            font-size: 22px;
+            width: 80%;
+            font-size: 18px;
             overflow: hidden;
             text-overflow: ellipsis;
         }
         .Prix{
             position: relative;
             left: 82%;
-            bottom: 50px;
-            font-size: 21px;
+            bottom: 44px;
+            font-size: 17px;
             font-weight: 800;
             transition: all 1s;
         }
@@ -101,7 +103,7 @@ body{
                 width: 50%;
             }
             .Prix{
-                transform: translateX(-14%);
+                transform: translateX(-17%);
                 transition: all 1s;
             }
         }
@@ -109,6 +111,8 @@ body{
     @for $i from 1 through 4 {
         .block_#{$i} {
             animation-delay: 0.2s * $i;
+            opacity: 0;
+            animation-fill-mode: forwards;
         }
     }
 }
@@ -157,9 +161,6 @@ section{
         right: 10%;
         top: 50px;
         &:hover{
-            cursor: pointer;
-        }
-        &:active{
             cursor: pointer;
             .fa-regular{
                 transition: all 1s;
@@ -267,34 +268,84 @@ footer{
             }
         }
     }
-@media (min-width: 799px ) and (max-width:1100px) {
+
+@media screen and (max-width: 400px){
     section{
-        height: 1000px;
+        h1{
+            width: 70%;
+            font-size: 25px;
+        }
+        .coeur{
+            .fa-regular{
+                font-size: 22px;
+            }
+            .fa-solid{
+                font-size: 22px;
+                bottom: 6px;
+            }
+        }
         Article{
             .MENU{
-                display: flex;
-                flex-direction: column;
-                .ENTREES{
-                    width: 45%;
-                    position: relative;
-                    right: 23%;
+                h2{
+                    font-size: 20px;
                 }
-                .PLATS{
-                    width: 45%;
-                    position: relative;
-                    bottom: 362px;
-                    left: 23%;
-                }
-                .DESSERTS{
-                    width: 90%;
-                    position: relative;
-                    bottom: 362px;
+                .block{
+                    h3{
+                        font-size: 20px;
+                        bottom: 10px;
+                        width: 70%;
+                    }
+                    p{
+                        bottom: 10px;
+                    }
+                    .Ingredients{
+                        width: 70%;
+                        font-size: 19px;
+                    }
+                    .Prix{
+                        font-size: 16px;
+                        bottom: 30px;
+                        left: 75%;
+                    }
                 }
             }
         }
         .Commander_div{
-            position: relative;
-            top: -280px;
+            .Commander{
+                font-size: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 240px){
+    header{
+        .logo{
+            width: 120px;
+        }
+    }
+    Section{
+        Article{
+            .MENU{
+                .block{
+                    .animation{
+                        bottom: 125%;
+                    }
+                    h3{
+                        font-size: 17px;
+                        width: 50%;
+                    }
+                    .Ingredients{
+                        font-size: 15px;
+                        width: 50%;
+                    }
+                    .Prix{
+                        left: 67%;
+                        font-size: 15px;
+                    }
+                }
+            }
         }
     }
 }

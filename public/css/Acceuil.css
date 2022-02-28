@@ -1,6 +1,6 @@
 /*Header*/
 body {
-  font-family: serif;
+  font-family: cursive, sans-serif;
 }
 body .logo_chargement {
   width: 35%;
@@ -57,6 +57,12 @@ body .logo_chargement {
     opacity: 1;
   }
 }
+.logo_div {
+  box-shadow: 0 4px 6px -6px #222;
+  padding-bottom: 15px;
+  position: relative;
+}
+
 .logo {
   display: block;
   width: 50%;
@@ -71,14 +77,13 @@ body .logo_chargement {
   height: 30px;
   display: block;
   text-align: center;
-  margin-top: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #e6e6e6;
 }
 .Recherche .searchbar {
   border: none;
-  font-size: 21px;
+  font-size: 20px;
   width: 45%;
   background-color: #e6e6e6;
   outline: none;
@@ -98,18 +103,18 @@ body .logo_chargement {
 .header3 h1 {
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 30px;
 }
 .header3 h2 {
-  font-size: 27px;
+  font-size: 22px;
   font-weight: 500;
   opacity: 70%;
   margin-bottom: 50px;
 }
 .header3 .Explorez a {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
@@ -131,7 +136,7 @@ nav {
 }
 nav h2 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
 }
 nav ul li {
   list-style-type: none;
@@ -141,7 +146,7 @@ nav ul li {
 }
 nav ul li a {
   font-weight: 750;
-  font-size: 22px;
+  font-size: 18px;
   border-radius: 21px;
   background-color: #F2F2F2;
   margin-bottom: 10px;
@@ -170,7 +175,7 @@ nav ul li i {
   color: rgba(0, 0, 0, 0.507);
   margin-left: 8px;
   margin-right: 18px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 /*Section*/
@@ -180,7 +185,7 @@ article {
   padding-bottom: 35px;
 }
 article h2 {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   position: relative;
   left: 15px;
@@ -216,12 +221,12 @@ article a .block img {
 }
 article a .block h3 {
   font-weight: 900;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0px;
   margin-left: 10px;
 }
 article a .block p {
-  font-size: 22px;
+  font-size: 18px;
   margin-left: 10px;
   margin-top: 4px;
 }
@@ -238,14 +243,11 @@ article .coeur {
 article .coeur:hover {
   cursor: pointer;
 }
-article .coeur:active {
-  cursor: pointer;
-}
-article .coeur:active .fa-regular {
+article .coeur:hover .fa-regular {
   transition: all 1s;
   opacity: 0;
 }
-article .coeur:active .fa-solid {
+article .coeur:hover .fa-solid {
   transition: all 0.3s;
   opacity: 1;
   background-size: 100% 100%;
@@ -300,16 +302,37 @@ footer li .fa-hands-helping {
 }
 
 @media screen and (max-width: 320px) {
+  body {
+    font-family: serif;
+  }
+
+  .Recherche .searchbar {
+    font-size: 15px;
+  }
+
+  article a .block h3 {
+    width: 70%;
+    font-size: 22px;
+  }
+  article a .block p {
+    font-size: 18px;
+  }
+  article .coeur .fa-regular {
+    font-size: 23px;
+  }
+  article .coeur .fa-solid {
+    font-size: 23px;
+    bottom: 5px;
+  }
+
   .header3 .Explorez a {
+    width: 50%;
     font-size: 18px;
   }
 }
-@media (min-width: 799px) and (max-width: 1100px) {
-  nav ul {
-    width: 75%;
-  }
-  nav ul li {
-    width: 75%;
+@media screen and (max-width: 240px) {
+  .header3 .Explorez a {
+    font-size: 12px;
   }
 }
 
