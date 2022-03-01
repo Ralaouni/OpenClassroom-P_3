@@ -44,13 +44,13 @@ body{
             height: 85px;
             width: 23%;
             position: relative;
-            bottom: 152%;
+            bottom: 120px;
             left: 100%;
             transition: all 1s;
             i{
                 position: relative;
                 font-size: 25px;
-                top: 37%;
+                top: 30px;
                 left: 30%;
                 color: white;
             }
@@ -304,7 +304,7 @@ footer{
                     }
                     .Prix{
                         font-size: 16px;
-                        bottom: 30px;
+                        bottom: 33px;
                         left: 75%;
                     }
                 }
@@ -330,7 +330,7 @@ footer{
             .MENU{
                 .block{
                     .animation{
-                        bottom: 125%;
+                        bottom: 97px;
                     }
                     h3{
                         font-size: 17px;
@@ -343,6 +343,7 @@ footer{
                     .Prix{
                         left: 67%;
                         font-size: 15px;
+                        bottom: 27px;
                     }
                 }
             }

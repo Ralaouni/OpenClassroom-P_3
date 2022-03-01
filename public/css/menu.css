@@ -124,14 +124,14 @@ section Article .ENTREES .block .animation {
   height: 85px;
   width: 23%;
   position: relative;
-  bottom: 152%;
+  bottom: 120px;
   left: 100%;
   transition: all 1s;
 }
 section Article .ENTREES .block .animation i {
   position: relative;
   font-size: 25px;
-  top: 37%;
+  top: 30px;
   left: 30%;
   color: white;
 }
@@ -237,14 +237,14 @@ section Article .PLATS .block .animation {
   height: 85px;
   width: 23%;
   position: relative;
-  bottom: 152%;
+  bottom: 120px;
   left: 100%;
   transition: all 1s;
 }
 section Article .PLATS .block .animation i {
   position: relative;
   font-size: 25px;
-  top: 37%;
+  top: 30px;
   left: 30%;
   color: white;
 }
@@ -350,14 +350,14 @@ section Article .DESSERTS .block .animation {
   height: 85px;
   width: 23%;
   position: relative;
-  bottom: 152%;
+  bottom: 120px;
   left: 100%;
   transition: all 1s;
 }
 section Article .DESSERTS .block .animation i {
   position: relative;
   font-size: 25px;
-  top: 37%;
+  top: 30px;
   left: 30%;
   color: white;
 }
@@ -519,7 +519,7 @@ footer li .fa-hands-helping {
   }
   section Article .MENU .block .Prix {
     font-size: 16px;
-    bottom: 30px;
+    bottom: 33px;
     left: 75%;
   }
   section .Commander_div .Commander {
@@ -534,7 +534,7 @@ footer li .fa-hands-helping {
   }
 
   Section Article .MENU .block .animation {
-    bottom: 125%;
+    bottom: 97px;
   }
   Section Article .MENU .block h3 {
     font-size: 17px;
@@ -547,6 +547,7 @@ footer li .fa-hands-helping {
   Section Article .MENU .block .Prix {
     left: 67%;
     font-size: 15px;
+    bottom: 27px;
   }
 }
 
