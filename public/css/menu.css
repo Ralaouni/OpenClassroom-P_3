@@ -124,7 +124,7 @@ section Article .ENTREES .block .animation {
   height: 95px;
   width: 23%;
   position: relative;
-  bottom: 125px;
+  bottom: 115px;
   left: 100%;
   transition: all 1s;
 }
@@ -237,7 +237,7 @@ section Article .PLATS .block .animation {
   height: 95px;
   width: 23%;
   position: relative;
-  bottom: 125px;
+  bottom: 115px;
   left: 100%;
   transition: all 1s;
 }
@@ -350,7 +350,7 @@ section Article .DESSERTS .block .animation {
   height: 95px;
   width: 23%;
   position: relative;
-  bottom: 125px;
+  bottom: 115px;
   left: 100%;
   transition: all 1s;
 }
