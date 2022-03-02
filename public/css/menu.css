@@ -47,6 +47,7 @@ section {
   margin-bottom: -70px;
 }
 section h1 {
+  width: 75%;
   font-weight: 700;
   font-size: 40px;
   margin-left: 10px;
@@ -124,14 +125,14 @@ section Article .ENTREES .block .animation {
   height: 95px;
   width: 23%;
   position: relative;
-  bottom: 115px;
+  bottom: 125px;
   left: 100%;
   transition: all 1s;
 }
 section Article .ENTREES .block .animation i {
   position: relative;
   font-size: 25px;
-  top: 30px;
+  top: 35px;
   left: 30%;
   color: white;
 }
@@ -160,7 +161,7 @@ section Article .ENTREES .block .Ingredients {
 section Article .ENTREES .block .Prix {
   position: relative;
   left: 82%;
-  bottom: 44px;
+  bottom: 40px;
   font-size: 17px;
   font-weight: 800;
   transition: all 1s;
@@ -237,14 +238,14 @@ section Article .PLATS .block .animation {
   height: 95px;
   width: 23%;
   position: relative;
-  bottom: 115px;
+  bottom: 125px;
   left: 100%;
   transition: all 1s;
 }
 section Article .PLATS .block .animation i {
   position: relative;
   font-size: 25px;
-  top: 30px;
+  top: 35px;
   left: 30%;
   color: white;
 }
@@ -273,7 +274,7 @@ section Article .PLATS .block .Ingredients {
 section Article .PLATS .block .Prix {
   position: relative;
   left: 82%;
-  bottom: 44px;
+  bottom: 40px;
   font-size: 17px;
   font-weight: 800;
   transition: all 1s;
@@ -350,14 +351,14 @@ section Article .DESSERTS .block .animation {
   height: 95px;
   width: 23%;
   position: relative;
-  bottom: 115px;
+  bottom: 125px;
   left: 100%;
   transition: all 1s;
 }
 section Article .DESSERTS .block .animation i {
   position: relative;
   font-size: 25px;
-  top: 30px;
+  top: 35px;
   left: 30%;
   color: white;
 }
@@ -386,7 +387,7 @@ section Article .DESSERTS .block .Ingredients {
 section Article .DESSERTS .block .Prix {
   position: relative;
   left: 82%;
-  bottom: 44px;
+  bottom: 40px;
   font-size: 17px;
   font-weight: 800;
   transition: all 1s;
