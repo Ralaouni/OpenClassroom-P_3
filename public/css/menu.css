@@ -121,10 +121,10 @@ section Article .ENTREES .block {
 }
 section Article .ENTREES .block .animation {
   background-color: #99E2D0;
-  height: 85px;
+  height: 95px;
   width: 23%;
   position: relative;
-  bottom: 120px;
+  bottom: 125px;
   left: 100%;
   transition: all 1s;
 }
@@ -234,10 +234,10 @@ section Article .PLATS .block {
 }
 section Article .PLATS .block .animation {
   background-color: #99E2D0;
-  height: 85px;
+  height: 95px;
   width: 23%;
   position: relative;
-  bottom: 120px;
+  bottom: 125px;
   left: 100%;
   transition: all 1s;
 }
@@ -347,10 +347,10 @@ section Article .DESSERTS .block {
 }
 section Article .DESSERTS .block .animation {
   background-color: #99E2D0;
-  height: 85px;
+  height: 95px;
   width: 23%;
   position: relative;
-  bottom: 120px;
+  bottom: 125px;
   left: 100%;
   transition: all 1s;
 }
