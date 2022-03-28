@@ -49,7 +49,7 @@ section {
 section h1 {
   width: 75%;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   margin-left: 10px;
   padding-top: 40px;
 }
@@ -79,11 +79,8 @@ section .coeur .fa-regular {
 }
 section .coeur .fa-solid {
   position: relative;
-  background: -moz-linear-gradient(top, #FF79DA, #9356DC);
-  background: -webkit-linear-gradient(top, #FF79DA, #9356DC);
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
