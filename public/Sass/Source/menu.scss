@@ -50,7 +50,7 @@ body{
             i{
                 position: relative;
                 font-size: 25px;
-                top: 30px;
+                top: 35px;
                 left: 30%;
                 color: white;
             }
@@ -81,7 +81,7 @@ body{
         .Prix{
             position: relative;
             left: 82%;
-            bottom: 44px;
+            bottom: 40px;
             font-size: 17px;
             font-weight: 800;
             transition: all 1s;
@@ -149,8 +149,9 @@ section{
     padding-bottom: 90px;
     margin-bottom: -70px;
     h1{
+        width: 75%;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 35px;
         margin-left: 10px;
         padding-top: 40px;
     }
@@ -179,11 +180,8 @@ section{
         }
         .fa-solid{
             position: relative;
-            background:-moz-linear-gradient(top, #FF79DA , #9356DC ); 
-            background: -webkit-linear-gradient(top, #FF79DA ,#9356DC ); 
             background: linear-gradient(to bottom, #FF79DA ,#9356DC );
             -webkit-background-clip: text;
-            -moz-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color:transparent;
             display: inline;
