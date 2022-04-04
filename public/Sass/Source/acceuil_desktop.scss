@@ -174,12 +174,13 @@ nav {
                 border-radius: 15px;
                 position: relative;
                 right: 10px;
-                transition: all 1s;
             }
             &:hover{
-                b{
-                    transition: all 1s;
-                    background-color: #FF79DA;
+                a{
+                    background-color:#9256dc19;
+                }
+                i{
+                    color:#9356DC;
                 }
             }
             i{
