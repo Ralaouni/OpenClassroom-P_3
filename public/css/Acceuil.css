@@ -170,6 +170,11 @@ nav ul li b {
   border-radius: 15px;
   position: relative;
   right: 10px;
+  transition: all 1s;
+}
+nav ul li:hover b {
+  transition: all 1s;
+  background-color: #FF79DA;
 }
 nav ul li i {
   color: rgba(0, 0, 0, 0.507);
@@ -203,6 +208,7 @@ article a {
   overflow: hidden;
 }
 article a .block {
+  position: relative;
   width: 100%;
   height: 315px;
   background-color: white;
@@ -218,6 +224,18 @@ article a .block img {
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
+}
+article a .block .nouveau {
+  background-color: #99E2D0;
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  bottom: 80%;
+  left: 70%;
+  border-radius: 5px;
+  color: #1d6c56;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 article a .block h3 {
   font-weight: 900;

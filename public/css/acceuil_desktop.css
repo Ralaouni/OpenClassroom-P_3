@@ -211,6 +211,7 @@ article .MENUS a {
   border-radius: 20px;
 }
 article .MENUS a .block {
+  position: relative;
   width: 100%;
   height: 315px;
   background-color: white;
@@ -223,6 +224,18 @@ article .MENUS a .block img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   object-fit: cover;
+}
+article .MENUS a .block .nouveau {
+  background-color: #99E2D0;
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  bottom: 80%;
+  left: 70%;
+  border-radius: 5px;
+  color: #1d6c56;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 article .MENUS a .block h3 {
   position: relative;
